@@ -648,7 +648,7 @@
                     />
                     <div class="portfolio-info">
                       <h4>HTML & CSS</h4>
-                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      <p>ohmyfood et les animations CSS</p>
                       <a
                         href="assets/img/portfolio/ohmyfood-2.png"
                         title="Animations CSS"
@@ -678,7 +678,7 @@
                     />
                     <div class="portfolio-info">
                       <h4>JS & React</h4>
-                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                      <p>Résolution de bugs</p>
                       <a
                         href="assets/img/portfolio/724-events-2.png"
                         title="JS & React, débugage et optimisation"
@@ -875,7 +875,7 @@
     event.preventDefault(); 
     const form = event.target;
 
-    // Send form data to Netlify using fetch API
+    
     const data = new FormData(form);
     fetch("/", {
       method: "POST",
@@ -883,7 +883,7 @@
     })
       .then(() => {
         alert("Form submitted successfully!");
-        form.reset(); // Clear the form fields
+        form.reset(); 
       })
       .catch((error) => {
         alert("Submission failed:", error);
